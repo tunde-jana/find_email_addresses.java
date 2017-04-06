@@ -25,7 +25,7 @@ public class EmailAddressTest {
 	@Test
 	public void testGetURLContent()
 	{
-		String urlString = "www.jana.com";
+		String urlString = "www.facebook.com";
 		Boolean result = URLContent.getContent(urlString);
 		assertEquals(true, result);
 
